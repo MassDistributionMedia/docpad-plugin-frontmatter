@@ -1,0 +1,29 @@
+{
+	"name": "docpad-plugin-footnotes",
+	"version": "2.0.0",
+	"description": "Generates a table of contents that can be inserted into pages.",
+	"keywords": [
+		"docpad",
+		"docpad-plugin",
+		"footnotes",
+		"toc", "table-of-contents"
+	],
+	"author": "MDM",
+	"maintainers": [
+		"Jeffrey Johnson <ofshard@gmail.com>"
+	],
+	"contributors": [
+    	"Clark & Parsia (http://clarkparsia.com/)" 
+	],
+	"engines": {
+		"node": ">=0.8.17",
+		"docpad": ">=6"
+	},
+	"dependencies": {
+		"cheerio": "~0.12.1"
+	},
+	"devDependencies": {
+		"coffee-script": "~1.6.2"
+	},
+	"main": "./src/footnotes.plugin.coffee"
+}
