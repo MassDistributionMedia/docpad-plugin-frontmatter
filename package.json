@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-frontmatter",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Generates a table of contents that can be inserted into pages.",
 	"keywords": [
 		"docpad",
@@ -15,6 +15,13 @@
 	"contributors": [
     	"Clark & Parsia (http://clarkparsia.com/)" 
 	],
+	"bugs": {
+		"url": "https://github.com/MassDistributionMedia/docpad-plugin-frontmatter/issues"
+	},
+	"repository" : {
+		"type": "git",
+		"url": "https://github.com/MassDistributionMedia/docpad-plugin-frontmatter.git"
+	},
 	"engines": {
 		"node": ">=0.8.17",
 		"docpad": ">=6"
