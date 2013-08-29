@@ -2,14 +2,14 @@
 module.exports = (BasePlugin) ->
 
   # Define Plugin
-  class footnotesPlugin extends BasePlugin
+  class frontmatterPlugin extends BasePlugin
     # Plugin name
-    name: 'footnotes'
+    name: 'frontmatter'
 
     tocHtml: ''
 
     config:
-      regex: /<toc:footnotes\/?>/g
+      regex: /<toc:frontmatter\/?>/g
       subsectionSelector: '#mdblock h2'
       addHeaderIds: true
       headerIdPrefix: 'sd-'

@@ -1,4 +1,5 @@
-# Footnotes plugin for DocPad
+# Frontmatter
+### A Table of Contents plugin for DocPad
 
 Simply define your Table of Contents in the plugins section of your project's `docpad.coffee` file:
 

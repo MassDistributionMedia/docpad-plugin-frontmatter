@@ -1,11 +1,11 @@
 {
-	"name": "docpad-plugin-footnotes",
+	"name": "docpad-plugin-frontmatter",
 	"version": "2.0.0",
 	"description": "Generates a table of contents that can be inserted into pages.",
 	"keywords": [
 		"docpad",
 		"docpad-plugin",
-		"footnotes",
+		"frontmatter",
 		"toc", "table-of-contents"
 	],
 	"author": "MDM",
@@ -25,5 +25,5 @@
 	"devDependencies": {
 		"coffee-script": "~1.6.2"
 	},
-	"main": "./src/footnotes.plugin.coffee"
+	"main": "./src/frontmatter.plugin.coffee"
 }
