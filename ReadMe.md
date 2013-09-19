@@ -41,4 +41,6 @@ Simply define your Table of Contents in the plugins section of your project's `d
 	      ]
 ```
 
+Once your Table of Contents is defined, then insert the html tag "<toc:stardog>" where you want the table of contents to appear. The tag will be replaced with fully rendered html.
+
 Plugin commissioned by [Clark & Parsia](http://clarkparsia.com/) and developed by [MDM](http://massdistributionmedia.com/). 
