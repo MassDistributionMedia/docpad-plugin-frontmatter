@@ -6,6 +6,7 @@ Simply define your Table of Contents in the plugins section of your project's `d
 ```coffeescript
  plugins:
 	frontmatter:
+	      regex: /<toc:frontmatter\/?>/g
 	      chapters: [
 	        title: "Using Stardog"
 	        subtitle: "Covers basic installation and starting a Stardog Server in <em>five easy steps</em>."
