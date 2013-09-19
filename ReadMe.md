@@ -41,6 +41,6 @@ Simply define your Table of Contents in the plugins section of your project's `d
 	      ]
 ```
 
-Once your Table of Contents is defined, then insert the html tag &lt;toc:stardog&gt; where you want the table of contents to appear. The tag will be replaced with fully rendered html.
+Once your Table of Contents is defined, then insert the html tag &lt;toc:frontmatter&gt; where you want the table of contents to appear. The tag will be replaced with fully rendered html. This can be changed to any pattern by setting the "regex" plugin variable.
 
 Plugin commissioned by [Clark & Parsia](http://clarkparsia.com/) and developed by [MDM](http://massdistributionmedia.com/). 
